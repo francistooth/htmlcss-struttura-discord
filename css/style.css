@@ -2,31 +2,102 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    font-family: "Open Sans", sans-serif;
 }
+
+/* .container {
+    padding: 0px 300px;
+} */
 
 /* header rules */
 
+/* main nav */
+
 .hNav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     background-color: lightblue;
+}
+
+.mainNav {
+    font-size: 20px;
+    padding: 5px 220px;
+    background-color: goldenrod;
+    border: 2px dashed;
+    margin: 15px 0px 15px;
+}
+
+#logo {
+    padding-left: 5px;
+}
+
+#login {
+    padding-right: 5px;
 }
 
 a {
     text-decoration: none;
     padding: 0 5px;
+    color: black;
 }
 
 ul {
     list-style-type: none;
 }
 
-/* invite rules */
+/* welcome and downloads */
 
-/* find rules */
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+}
 
-/* community rules */
+.download {
+    margin: 50px 0px;
+    width: 45%;
+    height: 400px;
+    background-color: violet;
+    border: 2px dashed;
+    border-radius: 5px;
+}
+
+/* template rules */
+
+.template {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.templateImg {
+    margin: 50px 0px;
+    width: 35%;
+    height: 500px;
+    background-color: dodgerblue;
+    border: 2px dashed;
+    border-radius: 5px;
+}
+
+.templateText {
+    margin: 50px 0px;
+    width: 25%;
+    height: 500px;
+    background-color: pink;
+    border: 2px dashed;
+    border-radius: 5px;
+}
+
+/* rTemplate rules */
+
+#reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: lightgrey;
+}
 
 /* together rules */
 
