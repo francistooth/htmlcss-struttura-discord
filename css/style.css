@@ -10,7 +10,19 @@
     height: 100vh;
 }
 
-/* header rules */
+/* color and border*/
+
+.pink {
+    background-color: pink;
+}
+
+.dashed {
+    border: 3px dashed black;
+}
+
+.dodgerblue {
+    background-color: dodgerblue;
+}
 
 /* main nav */
 
@@ -25,7 +37,6 @@
     font-size: 20px;
     padding: 5px 220px;
     background-color: goldenrod;
-    border: 2px dashed;
     margin: 15px 0px 15px;
 }
 
@@ -63,7 +74,6 @@ ul {
     width: 45%;
     height: 400px;
     background-color: violet;
-    border: 2px dashed;
     border-radius: 5px;
 }
 
@@ -80,8 +90,6 @@ ul {
     margin: 50px 0px;
     width: 35%;
     height: 500px;
-    background-color: dodgerblue;
-    border: 2px dashed;
     border-radius: 5px;
 }
 
@@ -89,8 +97,6 @@ ul {
     margin: 50px 0px;
     width: 25%;
     height: 500px;
-    background-color: pink;
-    border: 2px dashed;
     border-radius: 5px;
 }
 
@@ -116,10 +122,9 @@ ul {
     height: 90%;
     width: 60%;
     background-color: forestgreen;
-    border: 2px dashed;
 }
 
-/* footer rules */
+/* first footer rules */
 
 .footer1 {
     background-color: #353942;
@@ -135,27 +140,27 @@ ul {
     display: flex;
     height: 90%;
     width: 60%;
-    border-bottom: 2px solid grey;
 }
 
 .contacts {
     background-color: lightcoral;
     height: 100%;
     width: 30%;
-    border: 2px dashed black;
 }
 
 .qanda {
     display: flex;
     background-color: lightseagreen;
     width: 70%;
-    border: 2px dashed black;
+    height: 100%;
 }
 
 .col {
     width: 25%;
     border: 2px dashed white;
 }
+
+/* second footer */
 
 .footer2 {
     background-color: #353942;
@@ -166,7 +171,15 @@ ul {
 }
 
 .semifooter2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 80%;
     width: 60%;
     background-color: aquamarine;
+}
+
+.fDiv {
+    font-size: 20px;
+    padding: 5px;
 }
